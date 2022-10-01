@@ -1,0 +1,107 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar{
+	background-color: #ff6900;
+	padding: 10px;
+}
+.main{
+	display: flex;
+	justify-content:start;
+
+}
+
+li{
+	list-style: none;
+		padding: 10px;
+
+}
+
+
+.main li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.navbar2{
+	 background-color: white;
+	 display: flex;
+	 padding: 5px;
+	
+	 top: 0;
+}
+
+.main2{
+	display: flex;
+	justify-content: ;
+
+}
+.main2 li a{
+	color: black;
+	text-decoration: none;
+
+
+}
+
+.search{
+	margin-top: 10px;
+	margin-left: 160px;
+}
+.search input{
+	border: 1px solid lightgrey;
+	padding: 4px;
+}
+.main3{
+	display: flex;
+	font-size: 30px;
+}
+.cl:hover{
+	background-color: orange;
+}
+.cl{
+	background-color: orange;
+	border-radius: 5px 5px;
+}
+
+
+.dropbtn {
+  color: black;
+  padding: 16px;
+  font-size: 13px;
+  border: none;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
